@@ -220,6 +220,10 @@ gh aw compile --validate
 - **Repo Memory**: Persistent git-backed storage for agents
 - **Sandboxed Execution**: All workflows run in the Agent Workflow Firewall (AWF) sandbox, enabling full `bash` and `edit` tools by default
 
+## Rule
+
+- When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
+
 ## Important Notes
 
 - Always reference the instructions file at `https://raw.githubusercontent.com/github/gh-aw/main/.github/aw/github-agentic-workflows.md` for complete documentation
